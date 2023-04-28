@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<section class="container">
+  <h1>Formulario</h1>
+
+  <form  method="POST" class="formulario">
+    <label for="input-nome" >E-mail:</label>
+    <input type="text">
+
+    <label for="input-sobrenome">Nome:</label>
+    <input type="text" >
+
+    <label class="input_sexo">Sexo</label>
+     <select class="input_sexo" name="cidade" >
+         <option value="Feminino"></option>
+          <option value="Feminino">Feminino</option>
+          <option value="Masculino">Masculino</option>
+          <option value="Prefiro não informar">Prefiro não informar</option>
+     </select>
+
+     <label class="input_curso">Curso</label>
+     <select class="input_curso" name="Curso" >
+         <option value="Ciencia da computação"></option>
+          <option value="Ciencia da computação">Ciencia da computação</option>
+          <option value="Engenharia de Software">Engenharia de Software</option>
+          <option value="ADS">Análise e desenvolvimento de sistemas</option>
+          <option value="Segurança da informação">Segurança da informação</option>
+     </select>
+
+
+    <label for="endereco-correspodencia">CEP:</label>
+    <input type="text" >
+
+    <label for="complemento">Complemento:</label>
+    <input type="text" >
+
+    <label class="input_municipio">Regiao administrativa</label>
+     <select class="input_municipio" name="Municipio" >
+         <option value="Ciencia da computação"></option>
+          <option value="Núcleo Bandeirante">Núcleo Bandeirante</option>
+          <option value="Guará ">Guará </option>
+          <option value="Gama">Gama</option>
+          <option value="Taguatinga">Taguatinga</option>
+          <option value="Ceilândia  ">Ceilândia  </option>
+          <option value="Sobradinho ">Sobradinho </option>
+          <option value="Planaltina ">Planaltina </option>
+     </select>
+
+
+    <input class="button" type="submit" value="Salvar"></input>
+  </form>
+</section>
+
+
+</body>
