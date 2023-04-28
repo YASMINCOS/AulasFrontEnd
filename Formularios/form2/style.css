@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background-color: #B9D8EA;
+  padding: 20px;
+  border: solid black;
+  border-radius: 20px;
+}
+
+form input,
+form label,
+form button,
+select,
+.input_estado,
+.input_cargo,
+.input_curso,
+.apresentacao {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+form input,
+.input_estado,
+.input_cargo,
+.input_curso {
+  font-size: 24px;
+  height: 30px;
+}
+
+.button-enviar {
+  border: 10px;
+  background-color: #325467;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 60px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.button-limpar {
+  border: 10px;
+  background-color: #FF0000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 60px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+fieldset {
+  background-color: #ADD8E6;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.apresentacao {
+  width: 100%;
+
+}
+
+.coluna-natureza,
+.coluna-curso {
+  width: 50%;
+  float: left;
+}
+
+.checkbox-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.input_curso,
+.input_estado {
+  width: 100%;
+}
+

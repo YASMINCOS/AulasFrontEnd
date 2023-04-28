@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="container">
+  <h1>Formulario</h1>
+
+  <form  method="POST" class="formulario">
+    <fieldset>
+      <legend> Dados Pessoais </legend>
+      <label for="input-nome" >Nome:</label>
+      <input type="text">
+
+      <label for="input-sobrenome">Endereço:</label>
+      <input type="text" >
+
+      <label for="input-sobrenome">Cidade:</label>
+      <input type="text" >
+
+      <label class="input_estado">Estado: </label>
+      <select class="input_estado" name="cidade" >
+          <option  class="input_estado" value="Estado"></option>
+            <option class="input_estado" value="Acre">Acre</option>
+            <option class="input_estado" value="Alagoas">Alagoas</option>
+            <option class="input_estado" value="Amapá ">Amapá  </option>
+            <option class="input_estado" value="Amazonas">Amazonas</option>
+            <option class="input_estado" value="Bahia">Bahia</option>
+            <option class="input_estado" value="Ceará ">Ceará  </option>
+            <option class="input_estado" value="Espírito Santo ">Espírito Santo  </option>
+            <option class="input_estado" value="Mato Grosso">Goiás</option>
+            <option class="input_estado" value="Maranhão">Maranhão</option>
+            <option class="input_estado" value="Paraíba ">Paraíba </option>
+            <option class="input_estado" value="Paraná ">Paraná </option>
+            <option class="input_estado" value="Pernambuco">Pernambuco</option>
+            <option class="input_estado" value="Piauí">Piauí</option>
+            <option class="input_estado" value="Rio de Janeiro ">Rio de Janeiro  </option>
+            <option class="input_estado" value="Rio Grande do Sul ">Rio Grande do Sul</option>
+            <option class="input_estado" value="Santa Catarina">Santa Catarina</option>
+            <option class="input_estado" value="Distrito Federal">Distrito Federal</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+        <legend> Dados profissionais </legend>
+        <div class="coluna-natureza"> 
+              <label class="input_cargo"> Natureza do cargo </label>
+
+              <label class="input_cargo" for="Gerencia">Gerencia</label>
+              <input class="input_cargo" class="" type="checkbox" value="Gerencia">
+            
+              <label class="input_cargo" for="Financeiro">Financeiro</label>
+              <input class="input_cargo" type="checkbox"  name="Financeiro" value="Financeiro">
+
+              <label class="input_cargo" for="Administrativo">Administrativo</label>
+              <input class="input_cargo" type="checkbox"name="Administrativo" value="Administrativo">
+              
+              <label class="input_cargo" for="Tecnologia">Tecnologia</label>
+              <input class="input_cargo" type="checkbox"name="Tecnologia" value="Administrativo">
+              
+        </div>
+
+        <div class="coluna-curso">
+          <label class="input_curso "> Área de interesse </label>
+
+          <label class="input_curso " for="Computação">Computação</label>
+          <input class="input_curso "  type="checkbox" name = "Computacao "value="Computação">
+          
+          <label class="input_curso " for="Biologia">Biologia</label>
+          <input class="input_curso" type="checkbox"  name="Biologia" value="Biologia">
+          
+          <label class="input_curso " for="Meio ambiente">Meio ambiente</label>
+          <input class="input_curso " type="checkbox"name="Meio ambiente" value="Administrativo">
+        
+          <label class="input_curso " for="Engenharia">Engenharia</label>
+          <input class="input_curso " type="checkbox"name="Engenharia" value="Engenharia">
+         
+          <label class="input_curso " for="História">História</label>
+          <input class="input_curso " type="checkbox"name="História" value="Engenharia">
+          
+    </div>
+
+    <label class="apresentacao" for="apresentacao">Apresentação:</label>
+    <input type="text" >
+    </fieldset>
+
+    <input class="button-enviar" type="submit" value="Enviar"></input>
+
+    <input class="button-limpar" type="submit" value="Limpar"></input>
+  </form>
+</section>
+
+
+</body>
